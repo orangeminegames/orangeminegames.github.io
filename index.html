@@ -1,9 +1,133 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lostkins</title>
-<style>body{margin:0;background:#f6e9d2;color:#3d3142;font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:720px;margin:0 auto;padding:32px 20px 60px}h1{font-size:30px;margin:0 0 8px}h2{font-size:20px;margin:28px 0 6px}a{color:#2f6fb7}
-li{margin:4px 0}.games{padding-left:20px}</style></head>
-<body><main><h1>Lostkins</h1><p>Cosy, fair puzzle games for Android starring the lost-and-found crew, made by Orange Mine.</p>
-<ul class="games"><li>Shelf Stack</li><li>Send Home</li><li>Sort Office</li><li>Lost &amp; Found</li><li>Lost Bin</li><li>Out the Door</li><li>Quiet Rooms</li></ul>
-<p><a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:orangeminegames@gmail.com">orangeminegames@gmail.com</a></p></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orange Mine: small, fair puzzle games</title>
+<meta name="description" content="Orange Mine makes cosy puzzle games for Android starring a crew of lost things. Every level can be solved, and nothing is rigged.">
+<meta name="theme-color" content="#f6e9d2">
+<link rel="icon" href="img/crew/button.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/baloo2-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap bar">
+  <a class="mark" href="index.html"><img src="img/crew/button.svg" alt="" width="40" height="40">Orange Mine</a>
+  <nav aria-label="Main">
+    <a href="index.html#games">Games</a>
+    <a class="hide-sm" href="index.html#rules">House rules</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+<main id="main">
+<section class="wrap hero">
+  <h1><span class="o">Orange</span> Mine</h1>
+  <p>Small, fair puzzle games starring a crew of lost things.</p>
+  <div class="crew" aria-hidden="true">
+    <img src="img/crew/button.svg" alt="" width="150" height="150" style="--i:0">
+    <img src="img/crew/ticket.svg" alt="" width="150" height="150" style="--i:1">
+    <img src="img/crew/key.svg" alt="" width="150" height="150" style="--i:2">
+    <img src="img/crew/specs.svg" alt="" width="150" height="150" style="--i:3">
+    <img src="img/crew/balloon.svg" alt="" width="150" height="150" style="--i:4">
+    <img src="img/crew/umbrella.svg" alt="" width="150" height="150" style="--i:5">
+    <img src="img/crew/teddy.svg" alt="" width="150" height="150" style="--i:6">
+  </div>
+  <div class="ledge" aria-hidden="true"></div>
+</section>
+
+<section class="wrap section" id="games">
+  <h2>Seven games, one crew</h2>
+  <p class="lead">A button, an odd sock, a ticket and their friends run the lost-property office. Each game is a different job there.</p>
+  <ul class="rack">
+    <li class="cubby" style="--c:#F2D43D;--tilt:-2deg">
+      <img class="icon" src="img/games/shelfstack.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Shelf Stack</h3>
+        <p>Fit the blocks, clear the rows. Every hand can be placed.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#5B4B8A;--tilt:1.5deg">
+      <img class="icon" src="img/games/sendhome.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Send Home</h3>
+        <p>Tap each lost thing home, in the right order.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#1FA37A;--tilt:-1deg">
+      <img class="icon" src="img/games/sortoffice.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Sort Office</h3>
+        <p>Sort every cubby. No hopeless boards.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#E0603A;--tilt:2deg">
+      <img class="icon" src="img/games/lostfound.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Lost &amp; Found</h3>
+        <p>Find the sleepers from the numbers. Never a guess.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#C774A8;--tilt:-1.5deg">
+      <img class="icon" src="img/games/lostbin.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Lost Bin</h3>
+        <p>Drop and merge the crew, all the way up to Balloon.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#2F6FB7;--tilt:1deg">
+      <img class="icon" src="img/games/outthedoor.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Out the Door</h3>
+        <p>Slide every block out the door of its colour.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby" style="--c:#3E9A9C;--tilt:-2.5deg">
+      <img class="icon" src="img/games/quietrooms.png" alt="" width="104" height="104" loading="lazy">
+      <div class="tag">
+        <h3>Quiet Rooms</h3>
+        <p>One friend per room, none touching. Pure logic.</p>
+        <span class="soon">Coming soon to Google Play</span>
+      </div>
+    </li>
+    <li class="cubby next">
+      <p>Something new is being found</p>
+      <img src="img/crew/sock.svg" alt="" width="120" height="120" loading="lazy">
+    </li>
+  </ul>
+</section>
+
+<section class="wrap section" id="rules">
+  <h2>House rules</h2>
+  <p class="lead">The promises every Orange Mine game keeps.</p>
+  <div class="notice">
+    <ul>
+      <li><svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="15" fill="#1FA37A"/><path d="M10.5 17.5l4.5 4.5 8.5-9.5" fill="none" stroke="#fffaf0" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Every level can be finished</strong><span>Each level is checked by a solver before you ever see it. No impossible boards, no luck needed.</span></div></li>
+      <li><svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="15" fill="#E0603A"/><path d="M10.5 17.5l4.5 4.5 8.5-9.5" fill="none" stroke="#fffaf0" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Nothing is rigged</strong><span>What comes next never changes because you are close to losing, or to push you towards an ad.</span></div></li>
+      <li><svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="15" fill="#5B4B8A"/><path d="M10.5 17.5l4.5 4.5 8.5-9.5" fill="none" stroke="#fffaf0" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Ads stay polite</strong><span>Never in the middle of a level, at most one full-screen ad every two minutes, and videos with rewards are always your choice.</span></div></li>
+      <li><svg viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="15" fill="#2F6FB7"/><path d="M10.5 17.5l4.5 4.5 8.5-9.5" fill="none" stroke="#fffaf0" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Your progress stays with you</strong><span>No accounts and no sign-in. Levels, coins and friends are saved on your phone.</span></div></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <div class="name">Orange Mine</div>
+      <p>Small, fair puzzle games for Android.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="mailto:orangeminegames@gmail.com">orangeminegames@gmail.com</a>
+      <span>© 2026 Orange Mine</span>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

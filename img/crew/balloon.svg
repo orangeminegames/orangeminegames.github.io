@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" stroke="#3D3142" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <g id="body">
+    <ellipse cx="51" cy="116" rx="9" ry="6" fill="#3D3142"/>
+    <ellipse cx="77" cy="116" rx="9" ry="6" fill="#3D3142"/>
+    <path d="M64 58c20 0 32 13 32 31 0 17-12 27-32 27S32 106 32 89c0-18 12-31 32-31z" fill="#FFF8EA"/>
+  </g>
+  <g id="face">
+    <ellipse cx="44" cy="95" rx="5" ry="3" fill="#F4A6A0" stroke="none"/>
+    <ellipse cx="84" cy="95" rx="5" ry="3" fill="#F4A6A0" stroke="none"/>
+    <circle id="eye-l" cx="53" cy="86" r="4.5" fill="#3D3142" stroke="none"/>
+    <circle id="eye-r" cx="75" cy="86" r="4.5" fill="#3D3142" stroke="none"/>
+    <g id="mouth">
+      <path d="M54 94q10 13 20 0z" fill="#3D3142"/>
+      <ellipse cx="64" cy="100" rx="4" ry="2.5" fill="#F4A6A0" stroke="none"/>
+    </g>
+  </g>
+  <g id="hat">
+    <path d="M80 50q-6 6-10 4t-6 6" stroke-width="3"/>
+    <ellipse cx="82" cy="27" rx="20" ry="23" fill="#C774A8"/>
+    <path d="M78 50h8l-4 5z" fill="#C774A8"/>
+    <path d="M72 14q-6 6-5 14" stroke="#FFF8EA" stroke-width="4"/>
+    <path d="M58 60q6-6 12 0" stroke-width="3"/>
+  </g>
+</svg>

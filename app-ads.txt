@@ -1,0 +1,1 @@
+# Fill in "admobPublisherId" in ops/release-config.json and run node ops/make-legal-site.mjs again.
